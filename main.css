@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: white; 
+    font-size: 64px; 
+    margin: 10px;
+}
+
+.winner{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    z-index: 1;
+    height: 100vh; 
+    width: 100vw;
+}
+
+
+button{
+    background-color: crimson; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    transition: all 0.3s;
+    cursor: pointer;
+    /* height: 55px;
+    width: 55px; */
+}
+button:hover{
+    color: crimson; 
+    background-color: white; 
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
